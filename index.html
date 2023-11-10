@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Student Grade Calculator</title>
+</head>
+
+<body>
+	<div  class="text">
+		<h1><center>CS Student Grade Calculator</center></h1>
+	</div>
+	
+    <div class="calc-body">
+        <div class="result">
+            <h1>Result</h1>
+            <div class="show">
+                <h2>Total:<span id="total"></span></h2>
+                <br>
+                <h2>Percentage:<span id="percentage"></span></h2>
+                <br>
+                <h2>Grade:<span id="grade"></span></h2>
+            </div>
+        </div>
+        <div class="inp">
+            <div class="main">
+                <input type="number" name="" id="TOC" placeholder="TOC" min="0" max="100" class="boxes"><br>
+                <input type="number" name="" id="DBMS" placeholder="DBMS" min="0" max="100" class="boxes"><br>
+                <input type="number" name="" id="Cyber_Security" placeholder="Cyber Security" min="0" max="100" class="boxes"><br>
+                <input type="number" name="" id="IWT" placeholder="IWT" min="0" max="100" class="boxes"><br>
+                <input type="number" name="" id="Python" placeholder="Python" min="0" max="100" class="boxes"><br>
+                <button onclick="getResult()">Calculate Result</button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-text">
+    	
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
